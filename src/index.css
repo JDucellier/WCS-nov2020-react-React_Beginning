@@ -1,13 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 body {
+  color: whitesmoke;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #7289da;
+  background-image: url(https://proxy.mc-market.org/fd444de0698846a130e12a77187f60adecbc4548?url=https%3A%2F%2Fi.imgur.com%2F1cvFpYK.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

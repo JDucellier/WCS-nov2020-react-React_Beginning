@@ -32,3 +32,8 @@ h3 {
 .video {
   border-radius: 10pt;
 }
+
+.details {
+  margin-top: 0;
+  padding-top: 0;
+}

@@ -46,9 +46,8 @@ function LaunchesTable() {
         <div className="information">
           <h3>Launch date : </h3>
           <p className="date">{ launch_date_utc } </p>
-          <h3 className="success"> {launch_success ? "This mission was a success":"This mission was a failure"} </h3>
           <h3>Details : </h3>
-          <p className="details">{ details ? details : 'No details yet' }</p>
+          <p className="details">{launch_success ? "This mission was a success":"This mission was a failure"}. <br /> { details ? details : 'No details yet' }</p>
         </div>
 
       </div>

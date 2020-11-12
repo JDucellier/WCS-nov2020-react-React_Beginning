@@ -49,7 +49,6 @@ function LaunchesTable() {
           <h3>Details : </h3>
           <p className="details">{launch_success ? "This mission was a success":"This mission was a failure"}. <br /> { details ? details : 'No details yet' }</p>
         </div>
-
       </div>
 
     </div>

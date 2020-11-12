@@ -17,8 +17,11 @@ h3 {
 }
 .name {
   padding-bottom: 10pt;
+}
+.name::after {
   border-bottom: rgba(255, 255, 255, 0.5) solid 3px;
 }
+
 .cardBody {
   display: flex;
   margin: auto;
@@ -36,4 +39,13 @@ h3 {
 .details {
   margin-top: 0;
   padding-top: 0;
+}
+@media screen and (max-width: 900px) {
+  .card {
+    width: 95%;
+  }
+
+  .cardBody {
+    flex-direction: column;
+  }
 }
